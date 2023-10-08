@@ -1,6 +1,10 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Young Serif', serif;
+}
+header .texe-paragraph-entete{
+    letter-spacing: 3px;
 }
 .header{
     margin-top: 0;
@@ -57,7 +61,13 @@ div .elt-list a:hover{
 .texe-section1, .texe-section2{
     background-color: #fff;
     width: 50%;
+    text-align: start;
 }
+/*.bonjour{
+    background: red;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}*/
 .img-section1, .img-section2, .img-section3b, .img-section3a{
     width: 50%;
     height: 30rem;
@@ -71,26 +81,56 @@ div .elt-list a:hover{
 .titre-section1, .titre-section2{
     padding-top: 8rem;
 }
-.paragraph-section1{
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding: 0 3rem;
+.paragraph-section1, .paragraph-section2, .titre-section1, .titre-section2, .link-learn-more-section{
+    width: 70%;
+    padding-left: 5rem;
+}
+div .paragraph-section1, .paragraph-section2{
+    color: #777;
 }
 .link-learn-more-section{
-    color: red;
     text-decoration: none;
+    color: #0e0e0e;
+    text-transform: uppercase;
+    transition: ease .3s all;
+}
+
+.link-learn-more-section:hover{
+    background: rgb(157, 118, 118);
+    border-radius: 5px;
+    color: #fff;
     text-transform: uppercase;
 }
+.img-section3a, .img-section3b {
+    position: relative;  
+}
+div .text-section3a, .text-section3b{
+    position: absolute;
+    top: 56%;
+}
+.paragraph-section3{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    color: #777;
+}
+
 .section4{
     text-align: center;
+}
+.testimony-title{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: #777;
+    letter-spacing: 3px;
 }
 .temoignage-client{
     display: flex;
 }
 .card{
     width: 30%;
-    padding: 0 2rem;
+    padding: 0 3rem 2rem 2rem;
     transition: ease 0.3s all;
+
 }
 .card:hover{
     width: 30%;
@@ -99,19 +139,30 @@ div .elt-list a:hover{
     border-radius: 10px;
     box-shadow: (255, 179, 203, 1);
 }
+.paregraph-temoignage{
+    color: #777;
+}
+.profession-client{
+    color: #777;
+    font-size: 0.875rem;
+}
 .img-client-temoignage{
     padding-top: 1rem;
     border-radius: 50%;
     width: 7rem;
 }
 .section5{
+    width: 100%;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 .section5 img{
-    width: 100%;
+    width: 25%;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+.section5 .flex1{
+    flex: 500px;
 }
 .footer{
     display: flex;
@@ -134,11 +185,16 @@ div .elt-list a:hover{
 .list-footer li a{
     text-decoration: none;
     padding: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
     text-align: center;
     color: #444;
+    transition: ease .3s all;
 }
-div ion-icon{
+.list-footer li a:hover{
+    color: red;
+    font-size: larger;
+}
+div ion-icon{ 
     margin-top: 2rem;
     cursor: pointer;
     padding-right: 1rem;
@@ -149,8 +205,12 @@ div ion-icon{
     margin-right: 0;
 }
 div ion-icon:hover{
+    color: red;
     margin-top: 2rem;
     padding-right: 1rem;
     width: 2rem;
     height: 2rem;
+}
+footer .reseaux-sociaux-footer{
+    padding-bottom: 3rem;
 }
