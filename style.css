@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: red;
+    background: center url('/Images/img-orange1.jpg');
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.logo p{
+    color: #fff;
+    padding-left: 2rem;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+div ul{
+    list-style: none;
+    display: inline-flex;
+    padding-right: 2rem;
+}
+div .elt-list a{
+    text-decoration: none;
+    padding: 0 0.875rem;
+    transition: ease .3s all;
+    color: #fff;
+
+}
+div .elt-list a:hover{
+    background: #fff;
+    color: #0e0e0e;
+    height: 1rem;
+    width: 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+.texe-paragraph-entete{
+    color: #fff;
+}
+.img-fleche-sur-orange{
+    width: 8rem;
+    height: 12rem;
+}
+/*La partie principale -- le main --*/
+/*Section 1*/
+.section{
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    text-align: center;
+}
+.texe-section1, .texe-section2{
+    background-color: #fff;
+    width: 50%;
+}
+.img-section1, .img-section2, .img-section3b, .img-section3a{
+    width: 50%;
+    height: 30rem;
+    padding: 0;
+    margin: 0;
+}
+.image-oeuf{
+    height: 30rem;
+    width: 100%;
+}
+.titre-section1, .titre-section2{
+    padding-top: 8rem;
+}
+.paragraph-section1{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding: 0 3rem;
+}
+.link-learn-more-section{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.section4{
+    text-align: center;
+}
+.temoignage-client{
+    display: flex;
+}
+.card{
+    width: 30%;
+    padding: 0 2rem;
+    transition: ease 0.3s all;
+}
+.card:hover{
+    width: 30%;
+    cursor: pointer;
+    background: rgba(255, 179, 203, 0.18);
+    border-radius: 10px;
+    box-shadow: (255, 179, 203, 1);
+}
+.img-client-temoignage{
+    padding-top: 1rem;
+    border-radius: 50%;
+    width: 7rem;
+}
+.section5{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.section5 img{
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #83c472;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+}
+.logo-bas-de-page{ 
+    padding-top: 4rem;
+    margin-top: 0;
+    color: #444;
+}
+.list-footer{
+    list-style: none;
+    display: inline-flex;
+}
+.list-footer li a{
+    text-decoration: none;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: #444;
+}
+div ion-icon{
+    margin-top: 2rem;
+    cursor: pointer;
+    padding-right: 1rem;
+    transition: ease .3s all;
+}
+.logo-pinterest{
+    padding-right: 0;
+    margin-right: 0;
+}
+div ion-icon:hover{
+    margin-top: 2rem;
+    padding-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
